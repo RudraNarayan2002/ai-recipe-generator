@@ -1,12 +1,9 @@
-import HomePage from "./components/HomePage";
-import RecipeDIsplayPage from "./components/RecipeDIsplayPage";
+import dynamic from "next/dynamic";
 
-const page = () => {
-  return (
-    <div className="h-screen w-screen">
-      <HomePage />
-    </div>
-  );
+const HomePage = dynamic(() => import("./components/HomePage"));
+
+const Page = () => {
+  return <HomePage />;
 };
 
-export default page;
+export default Page;

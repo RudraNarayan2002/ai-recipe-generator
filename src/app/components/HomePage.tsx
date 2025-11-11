@@ -11,8 +11,14 @@ const HomePage = () => {
           Cook Smart. Eat Better. Every Day.{" "}
         </span>
         <span className="text-3xl font-normal">
-          Your one stop AI powered solution to make your fav dish!
+          Your one stop AI powered solution to cook your fav dish!
         </span>
+        <Link
+          href="/aiRecipe"
+          className="bg-[#371C81] px-4 py-2 rounded-xl font-semibold cursor-pointer"
+        >
+          Get Started
+        </Link>
       </div>
       {/* Footer */}
       <div className="w-full text-center py-4">
