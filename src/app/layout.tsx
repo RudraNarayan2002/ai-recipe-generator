@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body
         suppressHydrationWarning
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`antialiased [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]`}
       >
         {children}
       </body>
