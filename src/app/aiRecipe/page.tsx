@@ -1,11 +1,11 @@
 import dynamic from "next/dynamic";
 
-const RecipeDIsplayPage = dynamic(
-  () => import("../components/RecipeDIsplayPage")
+const RecipeDisplayPage = dynamic(
+  () => import("../components/RecipeDisplayPage")
 );
 
 const Page = () => {
-  return <RecipeDIsplayPage />;
+  return <RecipeDisplayPage />;
 };
 
 export default Page;

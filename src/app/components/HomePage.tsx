@@ -1,17 +1,27 @@
 import Link from "next/link";
-import React from "react";
+import { dancingScript, lusitana, inter } from "../../fonts";
 
 const HomePage = () => {
   return (
     <div className=" flex flex-col  justify-between items-center h-full w-full text-white">
-      <div className="mt-10 text-8xl">TasteCraft</div>
-      <div className="flex flex-col items-center space-y-4">
-        <span className="text-7xl font-semibold">
+      <div
+        className={`${dancingScript.className} antialiased mt-10 text-6xl md:text-8xl font-semibold`}
+      >
+        TasteCraft
+      </div>
+      <div className="flex flex-col items-center space-y-6 text-center">
+        <span
+          className={`${lusitana.className} text-4xl md:text-7xl font-semibold`}
+        >
           {" "}
-          Cook Smart. Eat Better. Every Day.{" "}
+          <span className="text-purple-600  ">Cook</span> Smart.{" "}
+          <span className="text-purple-600 ">Eat</span> Better.{" "}
+          <span className="text-purple-600">Every Day</span> .{" "}
         </span>
-        <span className="text-3xl font-normal">
-          Your one stop AI powered solution to cook your fav dish!
+        <span className={`${inter.className} text-xl md:text-3xl font-normal`}>
+          Your one stop{" "}
+          <span className="text-purple-600 font-semibold text-4xl">AI</span>{" "}
+          powered solution to cook your fav dish!
         </span>
         <Link
           href="/aiRecipe"
