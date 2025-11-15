@@ -4,7 +4,7 @@ import { useState } from "react";
 import { experimental_useObject as useObject } from "@ai-sdk/react";
 import { recipeSchema } from "@/app/api/structured-data/schema";
 
-export default function RecipeDisplayPage() {
+export default function RecipeDisplay() {
   const [dishName, setDishName] = useState("");
 
   const { submit, object, isLoading, error, stop } = useObject({
