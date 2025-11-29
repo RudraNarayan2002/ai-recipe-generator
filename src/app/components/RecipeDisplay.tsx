@@ -25,7 +25,6 @@ export default function RecipeDisplay() {
     "Paella", // Spain
     "Baklava", // Turkey/Greece
     "Falafel", // Middle East
-    "Beef Wellington", // UK
     "Fish and Chips", // UK
   ];
 
