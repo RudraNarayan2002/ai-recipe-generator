@@ -24,6 +24,8 @@ export default function RecipeDisplay() {
     "Paella", // Spain
     "Baklava", // Turkey/Greece
     "Fish and Chips", // UK
+    "Classic Margherita",
+    "Spaghetti Bolognese",
   ];
 
   const handleSubmit = (e: React.FormEvent) => {
