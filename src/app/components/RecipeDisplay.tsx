@@ -17,14 +17,12 @@ export default function RecipeDisplay() {
     "Ramen", // Japan
     "Lasagna", // Italy
     "Spaghetti Carbonara", // Italy
-    "Croissants", // France
     "Ratatouille", // France
     "Shawarma", // Middle East
     "Hummus", // Middle East
     "Kimchi Fried Rice", // Korea
     "Paella", // Spain
     "Baklava", // Turkey/Greece
-    "Falafel", // Middle East
     "Fish and Chips", // UK
   ];
 
