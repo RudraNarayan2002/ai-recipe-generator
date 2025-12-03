@@ -21,7 +21,6 @@ export default function RecipeDisplay() {
     "Shawarma", // Middle East
     "Hummus", // Middle East
     "Kimchi Fried Rice", // Korea
-    "Paella", // Spain
     "Baklava", // Turkey/Greece
     "Fish and Chips", // UK
     "Classic Margherita",
